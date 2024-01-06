@@ -34,7 +34,7 @@ function Event() {
         <h4><Link to="/">&lt; Back to Upcoming Events</Link></h4>
         {!eventDetails ? "Loading event details..." : (
             <div>
-                <img src={"/images/" + eventDetails.heroImage} alt={eventDetails.title}/>
+                <img src={"images/" + eventDetails.heroImage} alt={eventDetails.title}/>
                 <h1>{eventDetails.title}</h1>
                 <div style={{float: "right"}}>
                     <button id="register" onClick={() => nav(`/events/${eventId}/register`)}>Register Here</button>

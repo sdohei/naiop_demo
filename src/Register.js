@@ -71,7 +71,7 @@ function Register(id) {
         <h4><Link to={`/events/${eventId}`}>&lt; Back to Events Details</Link></h4>
         {!eventDetails ? "Loading event details..." : (
             <div>
-                <img src={"/images/" + eventDetails.heroImage}
+                <img src={"images/" + eventDetails.heroImage}
                     style={{objectFit: "cover", objectPosition: "0 0", width: "100%", height: "200px"}} alt={eventDetails.title}/>
                 <h1>Registration</h1>
                 <h3>{eventDetails.time}</h3>
@@ -120,7 +120,7 @@ function Register(id) {
                 </div>
                 <div style={{display: "flex", flexDirection: "row", gap: "1em", margin: "1.5em 0"}}>
                     <h3>Hosted By:</h3>
-                    <a href="https://www.naiopedmonton.com/"><img src="/images/logo.jpg" alt="NAIOP"/></a>
+                    <a href="https://www.naiopedmonton.com/"><img src="images/logo.jpg" alt="NAIOP"/></a>
                 </div>
             </div>)}
     </div>
