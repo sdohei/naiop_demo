@@ -112,7 +112,9 @@ function Register(id) {
                                 } else if (isMember && selectedCompanyId == null) {
                                     alert("Please select your member company before proceeding.");
                                 } else {
-                                    alert(`TODO: redirect to payment site.\nRegistration data:\n    name: ${registerName}\n    isMember: ${isMember}\n    company id: ${selectedCompanyId} / ${allCompanies.filter(ac => ac.id === selectedCompanyId)[0].name}`);
+                                    let msg = `TODO: redirect to payment site.\nRegistration data:\n    name: ${registerName}\n    isMember: ${isMember}`;
+                                    msg += (selectedCompanyId == null ? "" : `\n    company id: ${selectedCompanyId} / ${allCompanies.filter(ac => ac.id === selectedCompanyId)[0].name}`);
+                                    alert(msg);
                                 }
                             }}>Proceed to Payment</button>
                         </div>
