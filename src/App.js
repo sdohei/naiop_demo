@@ -23,7 +23,7 @@ const router = createBrowserRouter([
     path: "events/:eventId/register",
     element: <Register />,
   },
-]);
+], {basename: "/naiop_demo/build"});
 
 
 function App() {
