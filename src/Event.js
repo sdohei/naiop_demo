@@ -46,7 +46,7 @@ function Event() {
 
                 <div style={{display: "flex", flexDirection: "row", gap: "1em", margin: "1.5em 0"}}>
                     <h3>Hosted By:</h3>
-                    <a href="https://www.naiopedmonton.com/"><img src="./images/logo.jpg" alt="NAIOP" /></a>
+                    <a href="https://www.naiopedmonton.com/"><img src="images/logo.jpg" alt="NAIOP" /></a>
                 </div>
             </div>
             )
