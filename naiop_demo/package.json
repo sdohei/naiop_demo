@@ -1,6 +1,6 @@
 {
   "name": "naiop_demo",
-  "homepage": "http://mywebsite.com/naiop_demo/naiop_demo/build",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
