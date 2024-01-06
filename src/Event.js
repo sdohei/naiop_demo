@@ -1,4 +1,5 @@
 
+import { Link } from "react-router-dom";
 import { useState } from 'react';
 import { useNavigate, useParams } from "react-router-dom";
 
@@ -30,7 +31,7 @@ function Event() {
 
   return (
     <div>
-        <h4><a href="/">&lt; Back to Upcoming Events</a></h4>
+        <h4><Link to="/">&lt; Back to Upcoming Events</Link></h4>
         {!eventDetails ? "Loading event details..." : (
             <div>
                 <img src={"/images/" + eventDetails.heroImage} alt={eventDetails.title}/>
@@ -45,7 +46,7 @@ function Event() {
 
                 <div style={{display: "flex", flexDirection: "row", gap: "1em", margin: "1.5em 0"}}>
                     <h3>Hosted By:</h3>
-                    <a href="https://www.naiopedmonton.com/"><img src="/images/logo.jpg" alt="NAIOP" /></a>
+                    <a href="https://www.naiopedmonton.com/"><img src="./images/logo.jpg" alt="NAIOP" /></a>
                 </div>
             </div>
             )

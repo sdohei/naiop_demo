@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 
 import NaiopData from './StaticData.js';
@@ -67,7 +68,7 @@ function Register(id) {
 
   return (
     <div>
-        <h4><a href={`/events/${eventId}`}>&lt; Back to Events Details</a></h4>
+        <h4><Link to={`/events/${eventId}`}>&lt; Back to Events Details</Link></h4>
         {!eventDetails ? "Loading event details..." : (
             <div>
                 <img src={"/images/" + eventDetails.heroImage}
