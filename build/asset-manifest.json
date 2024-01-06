@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "./static/css/main.b8c05fc7.css",
-    "main.js": "./static/js/main.534f4ed0.js",
-    "static/js/787.95d87bcb.chunk.js": "./static/js/787.95d87bcb.chunk.js",
-    "index.html": "./index.html",
-    "main.b8c05fc7.css.map": "./static/css/main.b8c05fc7.css.map",
-    "main.534f4ed0.js.map": "./static/js/main.534f4ed0.js.map",
-    "787.95d87bcb.chunk.js.map": "./static/js/787.95d87bcb.chunk.js.map"
+    "main.css": "/naiop_demo/build/static/css/main.b8c05fc7.css",
+    "main.js": "/naiop_demo/build/static/js/main.325ddb8c.js",
+    "static/js/787.95d87bcb.chunk.js": "/naiop_demo/build/static/js/787.95d87bcb.chunk.js",
+    "index.html": "/naiop_demo/build/index.html",
+    "main.b8c05fc7.css.map": "/naiop_demo/build/static/css/main.b8c05fc7.css.map",
+    "main.325ddb8c.js.map": "/naiop_demo/build/static/js/main.325ddb8c.js.map",
+    "787.95d87bcb.chunk.js.map": "/naiop_demo/build/static/js/787.95d87bcb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b8c05fc7.css",
-    "static/js/main.534f4ed0.js"
+    "static/js/main.325ddb8c.js"
   ]
 }
